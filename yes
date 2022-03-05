@@ -2001,13 +2001,15 @@ function library:AddWindow(title, options)
 							end
 						end
 
-						return folder_data, folder
+						
 					end
+					return folder_data, folder
 
 				end
 
-				return tab_data, new_tab
+				
 			end
+			return tab_data, new_tab
 		end
 	end
 
